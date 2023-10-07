@@ -1,1 +1,1 @@
-https://github.com/ganeev-ruslan/ono-tebe-nado.git
+git@github.com:ganeev-ruslan/ono-tebe-nado.git
