@@ -28,7 +28,7 @@
       <img class="header__logo-image" src="./images/logo-black.svg" alt="Логотип">
     </a>
     <address class="header__address address">
-      <a class="header__address_link" href="tel:+9999555 5555">+9 999 555 5555</a>
+      <a class="header__address_link" href="tel:+99995555555">+9 999 555 5555</a>
       <br />
       <a class="header__address_link" href="mailto:info@sobaka.ge">
         info@sobaka.ge
@@ -47,43 +47,56 @@
       </h1>
       <div class="cover__description">
         <p class="cover__description-text">Аукцион вещей, в которые никто не верил</p>
-        <button class="bet-button bet-button_text">Сделать ставку</button>
+        <button class="bet-button bet-button_text" type="button">Сделать ставку</button>
       </div>
     </section>
    
     <section class="lots">
+
       <h2 class="lots__heading paragraph_size">ЛОТЫ</h2>
-      <div class="card-container">
-        <div class="card">
-          <img src="./images/card-lot-01.jpg" alt="Изображение_1">
-          <div class="card-description">
-            <div class="overlay"></div>
-            <a class="card__title header__address_link" href="#">Фильм режиссёра, который бросил киношколу</a>
-            <p class="card__text card_type_film">Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?</p>
-          </div>
-        </div>
-    
-    
-        <div class="card">
-          <img src="./images/card-lot-02.jpg" alt="Изображение_2">
-          <div class="card-description">
-            <div class="overlay"></div>
-            <a class="card__title header__address_link" href="#">Книга, где описан один скучный день из жизни рекламного агента</a>
-            <p class="card__text card_type_book">Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на древнеанглийский. В ней одновременно рассказывается о 16 июня 1904 года и об истории литературы, начиная с античных времён. И это всё накладывается на эпическую поэму Гомера. Сколько бы вы поставили на «Улисса» Джеймса Джойса?</p>
-          </div>
-        </div>
-    
-        <div class="card">
-          <img src="./images/card-lot-03.jpg" alt="Изображение_3">
-          <div class="card-description">
-            <div class="overlay"></div>
-            <a class="card__title header__address_link" href="#">Картина, которую повторит даже 5-летний сын маминой подруги</a>
-            <p class="card__text card_type_picture">Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на инфузорию-туфельку. Никаких полей, лесов, котиков… Сколько бы вы на такое поставили, если бы не знали, что это — одна из революционных работ Кандинского?</p>
-        </div>
-        </div>
-      </div>
-          
-    <a class="lots__look-more-link header__address_link" href="#">посмотреть больше</a> 
+      <ul class="lots__card-list">
+        <li class="lots__card-list-item">
+          <a class="card-link" href="#">
+            <article class="card card_type_film">
+              <div class="overlay"></div>
+              <h3 class="card__title">Фильм режиссёра, который бросил киношколу</h3>
+              <p class="card__text card__text_film">Не просто бросил, а ушёл с первой лекции. Какой была бы ваша
+                ставка, если бы вы не знали, что режиссёр — Пол Томас
+                Андерсон?</p>
+
+            </article>
+          </a>
+        </li>
+        <li class="lots__card-list-item">
+          <a class="card-link" href="#">
+            <article class="card card_type_book">
+              <div class="overlay"></div>
+              <h3 class="card__title">Книга, где описан один скучный день из жизни рекламного агента</h3>
+              <p class="card__text card__text_text">Объёмом почти в тысячу страниц. Иногда без знаков препинания и
+                с переходами на древнеанглийский. В ней одновременно
+                рассказывается о 16 июня 1904 года и об истории литературы,
+                начиная с античных времён. И это всё накладывается на
+                эпическую поэму Гомера. Сколько бы вы поставили на «Улисса»
+                Джеймса Джойса?</p>
+              
+            </article>
+          </a>
+        </li>
+  
+        <li class="lots__card-list-item">
+          <a class="card-link" href="#">
+            <article class="card card_type_picture">
+              <div class="overlay"></div>
+              <h3 class="card__title">Картина, которую повторит даже 5-летний сын маминой подруги</h3>
+              <p class="card__text card__text_picture">Ну действительно, там линия, тут кружочек, а здесь и вовсе
+                что-то похожее на инфузорию-туфельку. Никаких полей, лесов,
+                котиков… Сколько бы вы на такое поставили, если бы не знали,
+                что это — одна из революционных работ Кандинского?</p>
+            </article>
+          </a>
+        </li>
+      </ul>
+      <a class="lots__look-more-link address_link" href="#">посмотреть больше</a> 
     </section>
     <section class="about">
       <div class="about__logo">
@@ -99,8 +112,8 @@
     </section>
   </main>
   <footer class="footer">
-    <address class="address">
-      <a class="footer__address_link" href="tel:+9999555 5555">+9 999 555 5555</a>
+    <address class="address_footer">
+      <a class="footer__address_link" href="tel:+99995555555">+9 999 555 5555</a>
       <br />
       <a class="footer__address_link" href="mailto:info@sobaka.ge">
         info@sobaka.ge
@@ -125,17 +138,17 @@
     <ul class="footer__social-list">
       <li class="footer__social-list-item">
         <a class="footer__social-link " href="#">
-          <img class="footer__social-icon" src="./images/yt.svg" alt="">
+          <img class="footer__social-icon" src="./images/yt.svg" alt="Логотип Ютюб">
         </a>
       </li>
       <li class="footer__social-list-item">
         <a class="footer__social-link " href="#">
-          <img class="footer__social-icon" src="./images/vk.svg" alt="">
+          <img class="footer__social-icon" src="./images/vk.svg" alt="Логотип ВК">
         </a>
       </li>
       <li class="footer__social-list-item">
         <a class="footer__social-link " href="#">
-          <img class="footer__social-icon" src="./images/pinterest.svg" alt="">
+          <img class="footer__social-icon" src="./images/pinterest.svg" alt="Логотип Пинтерест">
         </a>
       </li>
     </ul>
@@ -143,4 +156,3 @@
   
   </body>
 </html>
-
